@@ -1,0 +1,11 @@
+L'objectif principal de notre travail était de mener une étude en anglais sur le Nutri-Score, appuyée sur des graphiques pour avoir une représentation statistique.
+
+Nous avons travaillé en binôme. Mon rôle principal a été de créer les graphiques et d'effectuer les analyses en anglais. Pour cela, nous avons utilisé SQL pour explorer et nettoyer les données et RStudio pour générer des graphiques. Ces graphiques nous ont permis de visualiser les tendances et les particularités dans les données alimentaires.
+
+Le projet s'est déroulé en deux phases :
+
+Exploration et nettoyage des données : nous avons utilisé le langage SQL pour gérer et nettoyer la base de données disponible sur Open Food Facts.
+
+Analyse des données et création des graphiques : Nous avons utilisé R pour produire des graphiques illustrant nos conclusions.
+
+Cette expérience nous a permis de développer nos compétences en manipulation de bases de données, en analyse statistique et pour de la rédaction en anglais.

@@ -1,0 +1,4 @@
+L'objectif de ce projet était d'identifier les facteurs ayant influés la survie des passagers du Titanic.
+Pour cela, nous avons utilisé le langage SQL a partir d'une base de données afin d'analyser les éléments affectant la survie des passagers.
+
+Ce projet m'a permis de développer mes compétences en interrogation SQL et en analyse de données.

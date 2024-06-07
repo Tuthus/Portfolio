@@ -1,0 +1,9 @@
+Le but du projet était de créer un programme capable de classifier automatiquement des dépêches, avec la plus grande fiabilité possible.
+
+Pour cela, nous avons développé plusieurs classes avec des rôles spécifiques :
+
+	-Une classe pour générer automatiquement un fichier texte contenant le classement des dépêches.
+	-Une autre classe pour classer les dépêches initialement à partir d'une base de données de test, ce qui nous a permis de vérifier et d'ajuster les algorithmes de classification.
+	-Une troisième classe pour exécuter le programme de classification sur une base de données différente de celle utilisée pour les tests, afin de tester la viabilité de notre solution.
+
+En parallèle, nous avons optimisé notre programme pour réduire son temps d'exécution en améliorant les algorithmes de traitement et en optimisant les structures de données utilisées. Nous avons donc fait de l'optimisation sur notre programme en temps, mais aussi en terme de consommation de ressources.

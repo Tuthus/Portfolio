@@ -1,1 +1,10 @@
-Test
+On avait pour mission de créer un site web pour une entreprise à destination d'élèves de troisième.
+
+Notre équipe, composée de quatre personnes, s'est répartie les tâches de la manière suivante : deux d'entre nous se sont attelés au codage en HTML/CSS, tandis que les deux autres ont pris en charge la recherche d'informations et la rédaction des contenus. Pour ma part, je faisais partie de l'équipe de recherche d'informations.
+
+J'ai donc principalement travaillé sur la collecte d'informations, la mise en forme du contenu et la maquette du site. J'ai également collaboré avec mes coéquipiers pour intégrer leurs textes et images, afin de créer un site web à la fois fonctionnel et informatif.
+
+
+
+
+
