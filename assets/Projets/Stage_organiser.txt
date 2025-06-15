@@ -1,0 +1,4 @@
+Nous avons réalisé ce projet avec 5 camarades, pendant notre deuxième année de BUT informatique.
+La consigne qui nous a été donné était d'améliorer un site web existant fait en Symfony et une application mobile avec Android Studio, grâce aux bonnes pratiques que nous avions vu en cours. 
+Pour se faire, nous avons du faire un travail important de lecture de code, d'analyse de la base de données, pour trouver les parties qui avaient été saboté par nos professeurs.
+Après cette partie d'analyse, nous avons réalisé les modifications nécessaires pour améliorer l'application mobile et le site web.

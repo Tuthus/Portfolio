@@ -1,0 +1,4 @@
+Ce projet a été réalisé lors de mon stage en entreprise de fin de 2ème année de BUT informatique.
+Il y avait déjà un site web existant a mon début de stage, mais il était imcomplet et il présentait plusieurs défauts.
+Pour l'amélioré, j'ai dû apprendre à utiliser le framework vue.js, la librairie bootstrap et le langage C#.
+J'ai pu amélioré l'ergonomie du site, créer et sécurisé des requêtes API, factorisé du code, créé de nouvelles fonctionnalités, réalisé des tests fonctionnels et géré la traduction en anglais du site.

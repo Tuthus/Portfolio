@@ -183,7 +183,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 
 /*-------------------------------------
-        3.  Welcome-hero
+        3.  Welcome-hero                
 --------------------------------------*/
 .welcome-hero{
     display: flex;
@@ -267,11 +267,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 16px;
     text-transform: capitalize;
 }
-.single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
+.single-about-add-info a {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
 /*.single-about-txt*/
 
 /*.single-about-img */
 .single-about-img{
+    display: inline-block; /* La div prend seulement la taille de son contenu */
     position: relative;
     box-shadow: 0 5px 20px rgba(14,25,80,.30);
     width: 100% !important;
@@ -286,9 +287,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    width: 100%; /* L'image s'adapte à la taille de son conteneur */
+    height: auto; /* Respecte les proportions de l'image */
+    display: block; /* Supprime l'espace en bas dû au comportement inline des images */
+    padding: 0%;
 }
+
+
 .about-list-icon{
     display: flex;
     justify-content: center;
@@ -377,7 +382,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.skill-content h4
+{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}.single-skill-content{padding-top: 100px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -409,18 +418,42 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     width: 85%;
     margin-bottom: 37px;
 }
-.progress-bar {
-   background: #b636ff;
-    border-radius: 3px;
-   -webkit-transition: width 1.5s ease-in-out;
-   -ms-transition: width 1.5s ease-in-out;
-   -moz-transition: width 1.5s ease-in-out;
-   -o-transition: width 1.5s ease-in-out;
-   transition: width 1.5s ease-in-out;
-}
 .tooltip{
    position:relative;
    float:right;
+}
+/* Style des badges */
+.label {
+    display: inline-block;
+    margin: 5px 8px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: background 0.3s ease;
+}
+/* Couleurs personnalisées */
+.label-primary {
+    background-color: #b636ff;
+}
+
+.label-success {
+    background-color: #5bc0de;
+}
+
+.label-info {
+    background-color:#5cb85c ;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .label {
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+    }
 }
 .tooltip > .tooltip-inner {
    background-color: transparent;
@@ -601,7 +634,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .portfolio {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
+    background: #f9fbfd;
+
 }
+
+.project-link{
+    height: 400px;
+    width: 360px;
+}
+
+
 
 .portfolio-content {padding-top: 100px;}
 
@@ -693,10 +735,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         11. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
     padding: 50px 0 100px;
 }
-.single-contact-box {padding-top: 100px;}
+.single-contact-box {
+    padding-top: 100px; 
+    display: flex;
+    justify-content: center;
+}
 .contact-form  .form-group {
     margin-bottom: 20px;
     
@@ -774,7 +819,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color:  #636a82;
     font-weight:  500;
 }
-.single-contact-add-info p {
+.single-contact-add-info a {
     color:  #999fb3;
     font-size:  16px;
     margin-top:  18px;

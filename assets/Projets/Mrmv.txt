@@ -1,0 +1,5 @@
+Ce projet a été réalisé dans le cadre de mon BUT informatique, pendant ma deuxième année, avec 5 camarades. 
+Nous avions comme consigne de mettre en avant le patrimoine culturel français grâce aux données gouvernementales. 
+Le projet a été composé de plusieurs phases: une première phase de réflexion pour trouver un sujet qui nous plaît et qui correspond à la consigne.
+Il y a eu ensuite une seconde phase de conception, lors de laquelle nous avons pu comparer différentes technologies et solutions aux problématiques. 
+Nous avons enfin fait une troisième et dernière phase de réalisation, où pendant 3 semaines de développement, nous avons donné vie à notre projet MRMV.
