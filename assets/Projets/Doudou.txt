@@ -1,0 +1,4 @@
+J'ai réalisé ce projet lors d'un stage à l'UQAC avec un camarade.
+Ce projet avait pour but de nous initier aux travaux de recherche en essayant de suivre des étapes spécifiques.
+Le sujet traité portait sur les doudous relaxants et sur la façon dont les différents éléments interactifs des doudous peuvent améliorer l'expérience utilisateur.
+On a donc recherché ce qui existait déjà, fait de la revue de littérature, fait des prototypes, fait de la modélisation 3D, réalisé un produit final et une affiche.

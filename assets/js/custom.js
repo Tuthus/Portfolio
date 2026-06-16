@@ -45,8 +45,9 @@ $(document).ready(function(){
 		$('li.smooth-menu a').bind("click", function(event) {
 			event.preventDefault();
 			var anchor = $(this);
+			var headerHeight = $('.header-area').outerHeight() || 90;
 			$('html, body').stop().animate({
-				scrollTop: $(anchor.attr('href')).offset().top - 0
+				scrollTop: $(anchor.attr('href')).offset().top - headerHeight
 			}, 1200,'easeInOutExpo');
 		});
 		
