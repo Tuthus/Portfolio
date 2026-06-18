@@ -487,10 +487,103 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }/*.isotope-overlay*/
 
 /*-------------------------------------
-        10. Contact
+        10. Exchange year
+--------------------------------------*/
+.exchange-year {
+    padding: 50px 0 100px;
+    background: #fff;
+}
+
+.exchange-content {
+    padding-top: 100px;
+}
+
+.exchange-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.exchange-content .row > [class*="col-"] {
+    display: flex;
+}
+
+.exchange-video,
+.exchange-text-box {
+    height: 100%;
+    width: 100%;
+}
+
+.video-responsive {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    background: #f9fbfd;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.exchange-text-box {
+    padding: 30px;
+    border: 1px solid #e5ebf2;
+    border-radius: 12px;
+    background: #f9fbfd;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-text-box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3c4258;
+    margin-bottom: 18px;
+}
+
+.exchange-text-box p {
+    font-size: 16px;
+    color: #636a82;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.exchange-textarea {
+    width: 100%;
+    min-height: 280px;
+    padding: 18px;
+    border: 1px solid #d9e2ec;
+    border-radius: 10px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #43485c;
+    background: #fff;
+    outline: none;
+}
+
+.exchange-textarea:focus {
+    border-color: #b636ff;
+    box-shadow: 0 0 0 3px rgba(182, 54, 255, 0.12);
+}
+
+/*-------------------------------------
+        11. Contact
 --------------------------------------*/
 .contact {
     padding: 50px 0 100px;
+    background: #f9fbfd;
+    border-top: 1px solid #e5ebf2;
 }
 .single-contact-box {
     padding-top: 100px; 
@@ -531,6 +624,20 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom:  26px;
 }
 /*.contact-add-info */
+
+@media (max-width: 991px) {
+    .exchange-content .row {
+        display: block;
+    }
+
+    .exchange-content .row > [class*="col-"] {
+        display: block;
+    }
+
+    .exchange-text-box {
+        margin-top: 30px;
+    }
+}
 
 /*hm-foot-icon*//*hm-foot-icon*/
 /*===============================
